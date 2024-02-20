@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "terminal.integrated.shellArgs.windows": ["--chcp", "65001"],
+    "editor.fontFamily": "Consolas, 'Courier New', monospace"
+}

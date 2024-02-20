@@ -1,6 +1,7 @@
 #include <iostream>
+//Exercicio sobre como imprimir no terminal 
 using namespace std;
 
 int main(){
-    cout << "Nome:Daniel da Silva" << "\n" << "Idade:25";
+    cout << "nome:Paulo Henrique" << "\n" << "Idade:19";
 }

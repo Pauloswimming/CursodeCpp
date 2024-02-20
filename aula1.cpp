@@ -1,5 +1,5 @@
 #include <iostream>
 using namespace std;
 int main(){
-   cout << "Hello World!" << endl << "ola mundo!";
+    cout << "Hello world!" << "\n" << "Ola mundo!";
 }
