@@ -2,39 +2,24 @@
 using namespace std;
 
 int main(){
-    int num1,num2;
-    char operadores;
+    int choice;
+    cout << "Digite uma opcao(1,2,3):";
+    cin >> choice;
 
-    cout << "Digite seu numero:";
-    cin >> num1;
-    cout << "\n";
-
-    cout << "Digite o seu segundo numero:";
-    cin >> num2;
-    cout << "\n";
-
-    cout << "Digite algum operador:";
-    cin >> operadores;
-    cout << "\n";
-
-    switch (operadores)
+    switch (choice)
     {
-    case '+':
-        cout << "a soma =" << num1 + num2;
+    case 1:
+        cout << "Vc digitou o numero 1!\n";
         break;
-    case '-':
-        cout << "a subtracao =" << num1 - num2;
+    case 2:
+        cout <<"vc digitou o numero 2!\n";
         break;
-    case '*':
-    cout << "multiplicacao =" << num1 * num2;
-    break;
-
-    case '/':
-    cout << "divisao =" << num1 / num2;
-    break;
+    case 3:
+        cout << "vc digitou o numero 3!\n";
+        break;
     
     default:
-        cout << "Digite algum desse operadores(+,-,*,/)";
+        cout << "opcao invalida,digite 1,2,3!\n";
         break;
     }
 }
