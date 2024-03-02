@@ -1,0 +1,29 @@
+-Como Vai funcionar o Estudo para Programação:
+-Cuidado com imediatismo querer tudo agora.
+
+Modo de estudo:
+1.Vai assistir aulas:
+-Vai tentar escrever o codigo da aula sem olhar
+-Explicar em voz alta,pra vc mesmo como se fosse uma criança,tentando de varias formas diferentes 
+-Comentar o código 
+
+2.Revisão:
+-Explicar em voz alta 
+
+3.Modo de duvida:
+-Volta a aula,Depois de varias tentaivas
+-Use chatgpt apenas com auxiliar pra entender a lógica
+-organize a aula com qual modolo que ela está
+
+4.Dica valiosa:
+-estude apenas uma linguagem de Programação!
+-saber todos os passos no projeto!
+-Pratica leva a perfeição!
+-Depois  de fazer curso,tente fazer seu proprio projeto sem tutorial!
+-Tente arrumar alguem pra te ajudar na sua linguagem(feedback/chatgpt)
+
+
+5.Programador:
+-Aprender uma ótima lógica de programação
+-Se autodidata na hora de programar
+-Aprender Ingles 
