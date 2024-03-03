@@ -1,3 +1,4 @@
+//Estrutura de repetição com While:
 #include <iostream>
 using namespace std;
 

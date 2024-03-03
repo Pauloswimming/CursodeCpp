@@ -1,40 +1,53 @@
+//Projeto de como converter temperatura:
+//https://brasilescola.uol.com.br/matematica/equacoes-matematicas-na-conversao-temperaturas.htm
+//fahrenhei
 #include <iostream>
 using namespace std;
+float celsius_fahrenhei(float celsius){
+    return (celsius * 9.0/5.0) + 32.0;
+}
+
+float fahrenhei_celsius(float fahrenhei){
+    return (fahrenhei -32.0) * 5.0 /9.0;
+}
+
 
 int main(){
-    int num1,num2;
-    char operador;
+    int choice;
+    float temp;
 
-    cout << "Digite seu numero:";
-    cin >> num1;
-    cout << "\n";
-
-    cout << "Digite o segundo numero:";
-    cin >> num2;
-    cout << "\n";
-
-    cout << "Digite algum operador(+,-,*,/):";
-    cin >> operador;
-    cout << "\n";
-
-    switch (operador)
+    do
     {
-    case '+':
-        cout << "a soma =" << num1+num2;
-        break;
-    case '-':
-        cout << "a subtracao =" << num1-num2;
-        break;
-    case '*':
-        cout << "a multiplicacao =" << num1*num2;
-        break;
+        cout << "Escolha uma opcao:\n";
+        cout << "1.converter celsius para fahrenhei\n";
+        cout << "2.converter fahrenhei para celsius\n";
+        cout << "3.sair\n";
+        cout << "opcao:";
+        cin >> choice;
 
-    case '/':
-        cout << "a divisao =" << num1/num2;
-        break;
+        switch (choice)
+        {
+        case 1:
+            cout << "Digite a temperatura em celsiu: ";
+            cin >> temp;
+            cout << "temperatura em fahrenhei:" <<
+            celsius_fahrenhei(temp) << "\n";
+            break;
+        case 2:
+            cout << "Digite a temperatura em fahrenhei: ";
+            cin >> temp;
+            cout << "temperatura em celsius: " << fahrenhei_celsius(temp) << "\n";
+            break;
+        case 3:
+            cout << "saindo ...";
+            break;
+        
+        default:
+            cout << "opcao invalida\n";
+            break;
+        }
+    } while (choice != 3);
+
+    return 0;
     
-    default:
-        cout << "Digite algum desse operador(+,-,*,/):";
-        break;
-    }
 }

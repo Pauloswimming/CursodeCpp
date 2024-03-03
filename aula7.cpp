@@ -1,3 +1,4 @@
+//Como colocar acentuação no seu código:
 #include <iostream>
 #include <windows.h>
 using namespace std;

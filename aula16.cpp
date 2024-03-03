@@ -1,3 +1,4 @@
+//Exercício no qual vocês vão calcular a media entre as notas:
 /*
 exercio no qual vcs vão cacular a media entre as notas fazer entradas
 para o usuario digitar as notas usar estruruta condicionais para mostrar

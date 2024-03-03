@@ -1,3 +1,4 @@
+//Como fazer alocação dinâmica com Vetores:
 #include <iostream>
 using namespace std;
 

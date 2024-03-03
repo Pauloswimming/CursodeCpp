@@ -1,3 +1,4 @@
+//Criar uma Função:
 /*
 criar uma função que calcula a área de um retângulo em que 
 o usuario vai digitar comprimento e largura

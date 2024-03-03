@@ -1,65 +1,41 @@
+//Projeto da calculadora:
 #include <iostream>
 using namespace std;
 
-class Pilha {
-private:
-    static const int max = 5;
-    int dados[max];
-    int topo;
-
-public:
-    Pilha() {
-        topo = -1;
-    }
-
-    void push(int elemento) {
-        if (topo == max - 1) {
-            cout << "Erro: Pilha cheia!\n";
-            return;
-        }
-        dados[++topo] = elemento;
-    }
-
-    int pop() {
-        if (topo == -1) {
-            cout << "Erro: Pilha vazia!\n";
-            return -1;
-        }
-        return dados[topo--];
-    }
-
-    int top() {
-        if (topo == -1) {
-            cout << "Erro: Pilha vazia!\n";
-            return -1;
-        }
-        return dados[topo];
-    }
-
-    bool vazia() {
-        return topo == -1;
-    }
-};
-
 int main(){
-    Pilha pilha;
+    int num1,num2;
+    char operador;
+
+    cout << "Digite seu numero:";
+    cin >> num1;
+    cout << "\n";
+
+    cout << "Digite o segundo numero:";
+    cin >> num2;
+    cout << "\n";
+
+    cout << "Digite algum operador(+,-,*,/):";
+    cin >> operador;
+    cout << "\n";
+
+    switch (operador)
+    {
+    case '+':
+        cout << "a soma =" << num1+num2;
+        break;
+    case '-':
+        cout << "a subtracao =" << num1-num2;
+        break;
+    case '*':
+        cout << "a multiplicacao =" << num1*num2;
+        break;
+
+    case '/':
+        cout << "a divisao =" << num1/num2;
+        break;
     
-    pilha.push(10);
-    pilha.push(20);
-    pilha.push(30);
-    cout << "Topo da pilha:" << pilha.top() << "\n";
-
-    cout << "Removendo elementos da pilha" << "\n";
-
-    cout << pilha.pop() << "\n";
-    cout << pilha.pop() << "\n";
-    cout << pilha.pop() << "\n";
-
-    if(pilha.vazia()){
-        cout << "pilha vazia!\n";
-    }else{
-        cout << "a pilha nao esta vazia\n";
+    default:
+        cout << "Digite algum desse operador(+,-,*,/):";
+        break;
     }
-
-    return 0;
 }

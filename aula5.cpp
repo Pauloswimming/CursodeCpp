@@ -1,3 +1,4 @@
+//Variaveis entrada e saida:
 #include <iostream>
 #include <string>
 using namespace std;

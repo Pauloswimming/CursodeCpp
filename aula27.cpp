@@ -1,3 +1,4 @@
+//Exercício de classe:
 #include <iostream>
 using namespace std;
 

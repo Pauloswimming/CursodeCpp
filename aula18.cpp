@@ -1,3 +1,4 @@
+//Como usar Função:
 #include <iostream>
 using namespace std;
 

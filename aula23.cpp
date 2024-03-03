@@ -1,3 +1,4 @@
+//Como usar Ponteiro:
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,4 @@
+//Como usar vetores:
 #include <iostream>
 using namespace std;
 

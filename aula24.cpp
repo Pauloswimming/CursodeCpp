@@ -1,3 +1,4 @@
+//Como usar Classe:
 #include <iostream>
 using namespace std;
 

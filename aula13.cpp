@@ -1,16 +1,15 @@
+//Estrutura de repetiçao com For:
 #include <iostream>
 using namespace std;
 
-int main() {
-    int chocolates = 10; // Imagine que temos 10 chocolates na caixa
+int main(){
+    int numero,i;
 
-    // Enquanto ainda houver chocolates na caixa, continue comendo
-    while (chocolates > 0) {
-        cout << "Estou comendo um chocolate!" << endl;
-        chocolates--; // Depois de comer um chocolate, tiramos um da caixa
+    cout << "Digite a contagem para o ano novo:";
+    cin >> numero;
+    cout << "\n";
+
+    for(i=numero;i>=0;i--){
+        cout << i << "\n";
     }
-
-    cout << "A caixa de chocolates está vazia agora." << endl;
-
-    return 0;
 }

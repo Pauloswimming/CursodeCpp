@@ -1,9 +1,10 @@
+/*
+Exercício de Entrada e Saída de Variáveis:
+*/
 #include <iostream>
 #include <string>
 using namespace std;
-/*
-Exercício de Entrada e Saída de Variáveis
-*/
+
 int main(){
     int idade;
     float altura;

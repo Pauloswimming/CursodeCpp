@@ -1,4 +1,4 @@
-//Sobre como comentar seu Código
+//Sobre como comentar seu Código:
 #include <iostream>
 using namespace std;
 /*

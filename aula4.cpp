@@ -1,4 +1,4 @@
-//
+//Variáveis entrada e saída:
 #include <iostream>
 using namespace std;
 int main(){

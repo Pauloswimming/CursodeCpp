@@ -1,3 +1,4 @@
+//Exercício de Ponteiro:
 #include <iostream>
 using namespace std;
 

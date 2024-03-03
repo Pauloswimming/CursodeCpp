@@ -1,4 +1,4 @@
-//Estruturas condicionais e operadores lógicos and(&&) e or(||)
+//Estruturas condicionais e operadores lógicos and(&&) e or(||):
 #include <iostream>
 using namespace std;
 
