@@ -1,4 +1,5 @@
-//Exercicio calcular a média de algumas notas com entradas e saídas do usuário:
+/*Exercicio calcular a média de algumas 
+notas com entradas e saídas do usuário:*/
 #include <iostream>
 using namespace std;
 

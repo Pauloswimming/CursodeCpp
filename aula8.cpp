@@ -1,4 +1,4 @@
-//Como fazer operações matematicas:
+//Como fazer operações matemáticas:
 #include <iostream>
 #include <math.h>
 using namespace std;
